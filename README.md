@@ -1,5 +1,7 @@
 # Bluetooth access to the OWON (c) OW18B multimeter from Linux
 
+Works with OW16B too!
+
 The OW18B multimeter by OWON (c) is a digital multimeter with various settings and perks. It can be accessed via low-energy (LE) Bluetooth from mobile devices (Android / iOS) and the Windows desktop. The manufacturer has released closed-source applications for those platforms and there is no documentation about the data interchange format. I haven't looked into the mobile apps, but the desktop software is a huge Java mess that causes headaches. This repo contains a thin C layer that allows you to receive data samples from the OW18B on Linux and incorporate the device into your own data logging projects.
 
 ## Installation
